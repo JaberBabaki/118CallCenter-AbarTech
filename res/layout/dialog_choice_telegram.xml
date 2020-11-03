@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" android:background="#555555">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dip"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <ImageView
+                android:id="@+id/img_header"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_margin="4dip"
+                android:src="@drawable/telegram_logo" />
+
+            <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                android:id="@+id/txt_header_conected"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dip"
+                android:text="به ما بپیوندید..."
+                android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="right|center" android:textSize="16dip"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:src="#dcdcdc" android:layout_marginLeft="8dip" android:layout_marginRight="8dip"/>
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_telegram_nopa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dip"
+            android:gravity="right"
+            android:text="کانال آشنایی با شرکت های نوپا و دانش بنیان"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12.5dip" />
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_telegram_soft"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:gravity="right"
+            android:text="کانال رسمی دپارتمان توسعه نرم افزار شرکت ابرتک"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12.5dip" />
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_telegram_abartech"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:gravity="right"
+            android:text="کانال رسمی شرکت ابررایانه طبرستان-ابرتک"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12.5dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_back_telegram"
+                android:layout_width="0dip"
+                android:layout_height="48dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_send_conect"
+                android:text="بازگشت"
+                android:textColor="#ffffff"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

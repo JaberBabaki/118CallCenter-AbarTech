@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#eeeeee">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="#3498DB"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5" android:gravity="left|center">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/main_page" android:layout_marginLeft="16dip" android:layout_marginRight="20dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5" android:gravity="right|center">
+
+            <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                android:id="@+id/txt_head_actionbar_sendidea"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="اعلامیه"
+                android:textColor="#Ffffff" android:layout_marginRight="8dip"/>
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="16dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/menuu" android:layout_marginLeft="4dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/lay_idea_fouce"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:background="#ffffff"
+                android:orientation="vertical" android:layout_marginTop="6dip">
+
+                <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                    android:id="@+id/txt_title_show"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="CustomTextView"
+                    android:textColor="#1BBC9B"
+                    android:textSize="16dip" />
+
+                <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                    android:id="@+id/txtDateMain"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_weight="0.5"
+                    android:gravity="bottom|left"
+                    android:text="CustomTextView"
+                    android:textColor="#1BBC9B" android:textSize="13dip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:background="#ffffff"
+                android:orientation="vertical" android:gravity="center">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/img_notific_do_show"
+                    android:layout_width="fill_parent"
+                    android:layout_height="180dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/arrows_faq_r"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:background="#ffffff"
+                android:orientation="vertical" android:gravity="center">
+
+                <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                    android:id="@+id/txtMainMain"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_margin="8dip"
+                    android:gravity="top|right"
+                    android:text="CustomTextView"
+                    android:textColor="#0A1F3B" android:layout_weight="0.8"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:orientation="vertical" android:layout_weight="0.2" android:gravity="center" android:layout_marginBottom="8dip">
+
+                    <Button
+                        android:id="@+id/btn_delete_noti"
+                        android:layout_width="250dip"
+                        android:layout_height="45dip"
+                        android:layout_marginLeft="8dip"
+                        android:layout_marginRight="8dip"
+                        android:background="@drawable/button_help"
+                        android:text="حذف اعلامیه"
+                        android:textColor="#ffffff"
+                        android:textSize="15dip" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

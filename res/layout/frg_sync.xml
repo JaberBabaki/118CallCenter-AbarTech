@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#Ffffff"
+        android:orientation="vertical" android:layout_marginLeft="8dip" android:layout_marginRight="8dip" android:layout_marginTop="8dip" android:layout_marginBottom="8dip">
+
+        <EditText
+            android:id="@+id/edt_number_sync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/selector"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="شماره 7 رقمی"
+            android:imeOptions="actionSearch"
+            android:inputType="number"
+            android:maxLength="7"
+            android:singleLine="true"
+            android:textSize="16dip" />
+
+        <Button
+            android:id="@+id/btn_shahr_sync"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/selector"
+            android:drawableLeft="@drawable/up_w"
+            android:gravity="right|center"
+            android:hint="انتخاب شهر"
+            android:textSize="16dip" android:layout_marginBottom="8dip"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" android:layout_marginRight="8dip" android:layout_marginLeft="8dip" android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_search_number"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:background="@drawable/button_send"
+                android:text="جستجو"
+                android:textColor="#ffffff"
+                android:textSize="16dip" android:layout_marginBottom="8dip" android:layout_marginTop="8dip"/>
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="48dip"
+                android:layout_height="25dip"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_alignRight="@+id/btn_search"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/searchh" />
+
+            <ImageView
+                android:id="@+id/img_arrow_number"
+                android:layout_width="30dip"
+                android:layout_height="20dip"
+                android:layout_alignLeft="@+id/btn_search"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:src="@drawable/arrowdu" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_number_sync"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="0.5"
+        android:cacheColorHint="@null"
+        android:clickable="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:drawable="@android:color/transparent"
+        android:duplicateParentState="true"
+        android:focusable="false" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/txt_no_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="موردی یافت نشد :("
+            android:textColor="#000000"
+            android:textSize="18dip"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_go_help"
+            android:layout_width="250dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/button_help"
+            android:text="مطالعه راهنما و نحوه جستجو"
+            android:textColor="#ffffff"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+</LinearLayout>

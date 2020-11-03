@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="#3498DB"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="left|center">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="20dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/main_page" android:layout_marginLeft="16dip"/>
+
+            <ImageView
+                android:id="@+id/img_noti"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:src="@drawable/env" android:layout_marginLeft="20dip" android:layout_marginRight="20dip"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:gravity="right|center" android:layout_weight="0.5">
+
+            <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                android:id="@+id/txt_head_actionbar_sendidea"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="تلفن های ضروری"
+                android:textColor="#Ffffff" android:layout_marginRight="8dip"/>
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="16dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/menuu" android:layout_marginLeft="4dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_necessary"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="4dip"
+        android:layout_weight="0.5"
+        android:cacheColorHint="@null"
+        android:clickable="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:drawable="@android:color/transparent"
+        android:duplicateParentState="true"
+        android:focusable="false" >
+
+        <!-- Preview: listitem=@layout/item_necesaary -->
+    </ListView>
+
+</LinearLayout>

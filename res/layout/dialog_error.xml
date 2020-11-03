@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#555555"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dip"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <ImageView
+                android:id="@+id/img_header"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_margin="4dip"
+                android:src="@drawable/war" />
+
+            <TextView
+                android:id="@+id/txt_header_error"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dip"
+                android:gravity="right|center"
+                android:text="خطا در ورود اطلاعات"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dip" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:src="#dcdcdc" />
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_name_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:gravity="right"
+            android:text="مخاطب به کانتکت ها اضافه شود"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16dip" android:visibility="gone"/>
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_family_eror"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:gravity="right"
+            android:text="مخاطب به کانتکت ها اضافه شود"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16dip" android:visibility="gone"/>
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_address_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:gravity="right"
+            android:text="مخاطب به کانتکت ها اضافه شود"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16dip" android:visibility="gone"/>
+
+        <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+            android:id="@+id/txt_change_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dip"
+            android:gravity="right"
+            android:text="مخاطب به کانتکت ها اضافه شود"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16dip" android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="0dip"
+                android:layout_height="48dip"
+                android:layout_marginLeft="2dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_send_conect"
+                android:text="موافقم"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

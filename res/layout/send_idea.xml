@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_sendIdea"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dcdcdc"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="#3498DB" android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5" android:gravity="left|center">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/main_page" android:layout_marginLeft="16dip" android:layout_marginRight="20dip"/>
+
+            <ImageView
+                android:id="@+id/img_noti"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:src="@drawable/env" android:layout_marginLeft="20dip" android:layout_marginRight="20dip"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5" android:gravity="right|center">
+
+            <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                android:id="@+id/txt_head_actionbar_sendidea"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="پیشنهاد ها"
+                android:textColor="#Ffffff" android:layout_marginRight="8dip"/>
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="16dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/menuu" android:layout_marginLeft="4dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" android:layout_margin="6dip"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/lay_idea_fouce"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.7"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/txt_neme_sender_idea"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="نام فرستنده : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="#00FFF8"
+                                android:textSize="12dip"
+                                android:visibility="gone" />
+
+                            <EditText
+                                android:id="@+id/edt_name_idea"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginLeft="4dip"
+                                android:layout_marginRight="4dip"
+                                android:layout_marginTop="4dip"
+                                android:background="@drawable/selector"
+                                android:gravity="right"
+                                android:hint="نام فرستنده "
+                                android:imeOptions="actionNext"
+                                android:inputType="text" android:textSize="17dip">
+
+                                <requestFocus />
+                            </EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/txt_email_sender_idea"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="ایمیل فرستنده : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="#00FFF8"
+                                android:textSize="12dip"
+                                android:visibility="gone" />
+
+                            <EditText
+                                android:id="@+id/edt_email_idea"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dip"
+                                android:layout_marginRight="4dip"
+                                android:background="@drawable/selector"
+                                android:gravity="right"
+                                android:hint="ایمیل فرستنده"
+                                android:imeOptions="actionNext"
+                                android:inputType="textEmailAddress" android:textSize="17dip"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginRight="4dip" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/txt_text_sender_idea"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="متن پیام  :  "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="#00FFF8"
+                                android:textSize="12dip"
+                                android:visibility="gone" />
+
+                            <EditText
+                                android:id="@+id/edt_text_idea"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="4dip"
+                                android:background="@drawable/selector"
+                                android:ems="10"
+                                android:gravity="right"
+                                android:hint="متن پیشنهاد"
+                                android:imeOptions="actionDone" android:textSize="17dip"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_send_idea"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dip"
+                    android:background="@drawable/button_send"
+                    android:drawingCacheQuality="high"
+                    android:text="ارسال نظر"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

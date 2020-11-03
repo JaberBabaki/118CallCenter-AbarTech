@@ -1,0 +1,438 @@
+abartech.mobile.callcenter118.About
+abartech.mobile.callcenter118.Call118Activity
+abartech.mobile.callcenter118.CustomControl.CustomDrawerLayout
+abartech.mobile.callcenter118.CustomControl.CustomDrawerLayout: CustomDrawerLayout(android.content.Context)
+abartech.mobile.callcenter118.CustomControl.CustomDrawerLayout: CustomDrawerLayout(android.content.Context,android.util.AttributeSet)
+abartech.mobile.callcenter118.CustomControl.CustomDrawerLayout: CustomDrawerLayout(android.content.Context,android.util.AttributeSet,int)
+abartech.mobile.callcenter118.CustomControl.NewControlTextView
+abartech.mobile.callcenter118.CustomControl.NewControlTextView: NewControlTextView(android.content.Context,android.util.AttributeSet,int)
+abartech.mobile.callcenter118.CustomControl.NewControlTextView: NewControlTextView(android.content.Context,android.util.AttributeSet)
+abartech.mobile.callcenter118.CustomControl.NewControlTextView: NewControlTextView(android.content.Context)
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: SlidingTabLayout(android.content.Context)
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: SlidingTabLayout(android.content.Context,android.util.AttributeSet)
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: SlidingTabLayout(android.content.Context,android.util.AttributeSet,int)
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: void setCustomTabColorizer(abartech.mobile.callcenter118.CustomControl.SlidingTabLayout$TabColorizer)
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: void setSelectedIndicatorColors(int[])
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: void setDividerColors(int[])
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: void setCustomTabView(int,int)
+abartech.mobile.callcenter118.CustomControl.SlidingTabLayout: void setViewPager(android.support.v4.view.ViewPager)
+abartech.mobile.callcenter118.Enhance
+abartech.mobile.callcenter118.FragmentAll
+abartech.mobile.callcenter118.FragmentCodeCity
+abartech.mobile.callcenter118.FragmentCodeCountry
+abartech.mobile.callcenter118.FragmentLegal
+abartech.mobile.callcenter118.FragmentSync
+abartech.mobile.callcenter118.G
+abartech.mobile.callcenter118.Help
+abartech.mobile.callcenter118.Idea
+abartech.mobile.callcenter118.ListNotification
+abartech.mobile.callcenter118.MyReceiver
+abartech.mobile.callcenter118.NecessaryList
+abartech.mobile.callcenter118.NewsPage
+abartech.mobile.callcenter118.R$drawable: int abar
+abartech.mobile.callcenter118.R$drawable: int arm
+abartech.mobile.callcenter118.R$drawable: int arm_w_p
+abartech.mobile.callcenter118.R$drawable: int arrowd
+abartech.mobile.callcenter118.R$drawable: int arrowdu
+abartech.mobile.callcenter118.R$drawable: int arrows_faq_l
+abartech.mobile.callcenter118.R$drawable: int arrows_faq_r
+abartech.mobile.callcenter118.R$drawable: int bullhorn
+abartech.mobile.callcenter118.R$drawable: int button_help
+abartech.mobile.callcenter118.R$drawable: int button_send
+abartech.mobile.callcenter118.R$drawable: int button_send_conect
+abartech.mobile.callcenter118.R$drawable: int call_nes
+abartech.mobile.callcenter118.R$drawable: int chat
+abartech.mobile.callcenter118.R$drawable: int checked
+abartech.mobile.callcenter118.R$drawable: int cl
+abartech.mobile.callcenter118.R$drawable: int contact
+abartech.mobile.callcenter118.R$drawable: int elector_item
+abartech.mobile.callcenter118.R$drawable: int env
+abartech.mobile.callcenter118.R$drawable: int help_white
+abartech.mobile.callcenter118.R$drawable: int ic_fiberman_logo_72
+abartech.mobile.callcenter118.R$drawable: int ic_launcher
+abartech.mobile.callcenter118.R$drawable: int img_adsbanner
+abartech.mobile.callcenter118.R$drawable: int info
+abartech.mobile.callcenter118.R$drawable: int infow
+abartech.mobile.callcenter118.R$drawable: int inte
+abartech.mobile.callcenter118.R$drawable: int letter
+abartech.mobile.callcenter118.R$drawable: int mail
+abartech.mobile.callcenter118.R$drawable: int main_page
+abartech.mobile.callcenter118.R$drawable: int menuu
+abartech.mobile.callcenter118.R$drawable: int necessary
+abartech.mobile.callcenter118.R$drawable: int news
+abartech.mobile.callcenter118.R$drawable: int not
+abartech.mobile.callcenter118.R$drawable: int op
+abartech.mobile.callcenter118.R$drawable: int people_w
+abartech.mobile.callcenter118.R$drawable: int phone_number
+abartech.mobile.callcenter118.R$drawable: int ppp
+abartech.mobile.callcenter118.R$drawable: int pppp
+abartech.mobile.callcenter118.R$drawable: int ppps
+abartech.mobile.callcenter118.R$drawable: int redd
+abartech.mobile.callcenter118.R$drawable: int refresh
+abartech.mobile.callcenter118.R$drawable: int search
+abartech.mobile.callcenter118.R$drawable: int searchh
+abartech.mobile.callcenter118.R$drawable: int selector
+abartech.mobile.callcenter118.R$drawable: int selector_call
+abartech.mobile.callcenter118.R$drawable: int selector_error
+abartech.mobile.callcenter118.R$drawable: int selector_search
+abartech.mobile.callcenter118.R$drawable: int share
+abartech.mobile.callcenter118.R$drawable: int share_sli
+abartech.mobile.callcenter118.R$drawable: int social_w
+abartech.mobile.callcenter118.R$drawable: int su
+abartech.mobile.callcenter118.R$drawable: int telegram
+abartech.mobile.callcenter118.R$drawable: int telegram_logo
+abartech.mobile.callcenter118.R$drawable: int telephone
+abartech.mobile.callcenter118.R$drawable: int telephone_w
+abartech.mobile.callcenter118.R$drawable: int unview
+abartech.mobile.callcenter118.R$drawable: int up
+abartech.mobile.callcenter118.R$drawable: int up_w
+abartech.mobile.callcenter118.R$drawable: int view
+abartech.mobile.callcenter118.R$drawable: int voo
+abartech.mobile.callcenter118.R$drawable: int voop
+abartech.mobile.callcenter118.R$drawable: int voopcal
+abartech.mobile.callcenter118.R$drawable: int war
+abartech.mobile.callcenter118.R$drawable: int web
+abartech.mobile.callcenter118.R$id: int ImageView01
+abartech.mobile.callcenter118.R$id: int ImageView02
+abartech.mobile.callcenter118.R$id: int ImageView03
+abartech.mobile.callcenter118.R$id: int ImageView04
+abartech.mobile.callcenter118.R$id: int ImageView05
+abartech.mobile.callcenter118.R$id: int ImageView06
+abartech.mobile.callcenter118.R$id: int ImageView07
+abartech.mobile.callcenter118.R$id: int ImageView08
+abartech.mobile.callcenter118.R$id: int ImageView09
+abartech.mobile.callcenter118.R$id: int LinearLayout01
+abartech.mobile.callcenter118.R$id: int LinearLayout02
+abartech.mobile.callcenter118.R$id: int LinearLayout03
+abartech.mobile.callcenter118.R$id: int LinearLayout04
+abartech.mobile.callcenter118.R$id: int LinearLayout05
+abartech.mobile.callcenter118.R$id: int LinearLayout06
+abartech.mobile.callcenter118.R$id: int LinearLayout07
+abartech.mobile.callcenter118.R$id: int LinearLayout08
+abartech.mobile.callcenter118.R$id: int LinearLayout09
+abartech.mobile.callcenter118.R$id: int LinearLayout1
+abartech.mobile.callcenter118.R$id: int LinearLayout10
+abartech.mobile.callcenter118.R$id: int LinearLayout11
+abartech.mobile.callcenter118.R$id: int LinearLayout12
+abartech.mobile.callcenter118.R$id: int NewControlTextView01
+abartech.mobile.callcenter118.R$id: int NewControlTextView02
+abartech.mobile.callcenter118.R$id: int NewControlTextView03
+abartech.mobile.callcenter118.R$id: int NewControlTextView04
+abartech.mobile.callcenter118.R$id: int NewControlTextView05
+abartech.mobile.callcenter118.R$id: int NewControlTextView06
+abartech.mobile.callcenter118.R$id: int NewControlTextView07
+abartech.mobile.callcenter118.R$id: int NewControlTextView08
+abartech.mobile.callcenter118.R$id: int NewControlTextView09
+abartech.mobile.callcenter118.R$id: int NewControlTextView1
+abartech.mobile.callcenter118.R$id: int add_contact
+abartech.mobile.callcenter118.R$id: int btn_back
+abartech.mobile.callcenter118.R$id: int btn_back_telegram
+abartech.mobile.callcenter118.R$id: int btn_corect_help
+abartech.mobile.callcenter118.R$id: int btn_down
+abartech.mobile.callcenter118.R$id: int btn_exit
+abartech.mobile.callcenter118.R$id: int btn_go_help
+abartech.mobile.callcenter118.R$id: int btn_ok
+abartech.mobile.callcenter118.R$id: int btn_ok_welcom
+abartech.mobile.callcenter118.R$id: int btn_search
+abartech.mobile.callcenter118.R$id: int btn_search_city_ostan
+abartech.mobile.callcenter118.R$id: int btn_search_country
+abartech.mobile.callcenter118.R$id: int btn_search_legal
+abartech.mobile.callcenter118.R$id: int btn_search_number
+abartech.mobile.callcenter118.R$id: int btn_send
+abartech.mobile.callcenter118.R$id: int btn_send_idea
+abartech.mobile.callcenter118.R$id: int btn_setting
+abartech.mobile.callcenter118.R$id: int btn_shahr_sync
+abartech.mobile.callcenter118.R$id: int btn_shhar
+abartech.mobile.callcenter118.R$id: int btn_shhar_legal
+abartech.mobile.callcenter118.R$id: int call
+abartech.mobile.callcenter118.R$id: int content
+abartech.mobile.callcenter118.R$id: int drawer_la
+abartech.mobile.callcenter118.R$id: int drawer_lay
+abartech.mobile.callcenter118.R$id: int drawer_layout
+abartech.mobile.callcenter118.R$id: int edt1
+abartech.mobile.callcenter118.R$id: int edt_active
+abartech.mobile.callcenter118.R$id: int edt_address
+abartech.mobile.callcenter118.R$id: int edt_address_legal
+abartech.mobile.callcenter118.R$id: int edt_email_idea
+abartech.mobile.callcenter118.R$id: int edt_family
+abartech.mobile.callcenter118.R$id: int edt_name
+abartech.mobile.callcenter118.R$id: int edt_name_area
+abartech.mobile.callcenter118.R$id: int edt_name_city
+abartech.mobile.callcenter118.R$id: int edt_name_city_ostan
+abartech.mobile.callcenter118.R$id: int edt_name_country
+abartech.mobile.callcenter118.R$id: int edt_name_idea
+abartech.mobile.callcenter118.R$id: int edt_name_list_shar
+abartech.mobile.callcenter118.R$id: int edt_number_sync
+abartech.mobile.callcenter118.R$id: int edt_text_idea
+abartech.mobile.callcenter118.R$id: int imageView1
+abartech.mobile.callcenter118.R$id: int imageView2
+abartech.mobile.callcenter118.R$id: int img_arrow
+abartech.mobile.callcenter118.R$id: int img_arrow_city
+abartech.mobile.callcenter118.R$id: int img_arrow_country
+abartech.mobile.callcenter118.R$id: int img_arrow_faq
+abartech.mobile.callcenter118.R$id: int img_arrow_legal
+abartech.mobile.callcenter118.R$id: int img_arrow_number
+abartech.mobile.callcenter118.R$id: int img_delete_adapter
+abartech.mobile.callcenter118.R$id: int img_goood
+abartech.mobile.callcenter118.R$id: int img_header
+abartech.mobile.callcenter118.R$id: int img_help
+abartech.mobile.callcenter118.R$id: int img_home
+abartech.mobile.callcenter118.R$id: int img_menu
+abartech.mobile.callcenter118.R$id: int img_menu_news
+abartech.mobile.callcenter118.R$id: int img_not_bad
+abartech.mobile.callcenter118.R$id: int img_noti
+abartech.mobile.callcenter118.R$id: int img_refresh
+abartech.mobile.callcenter118.R$id: int img_very_goood
+abartech.mobile.callcenter118.R$id: int img_view
+abartech.mobile.callcenter118.R$id: int img_weak
+abartech.mobile.callcenter118.R$id: int lay_about
+abartech.mobile.callcenter118.R$id: int lay_all_sliding
+abartech.mobile.callcenter118.R$id: int lay_city
+abartech.mobile.callcenter118.R$id: int lay_countyrt
+abartech.mobile.callcenter118.R$id: int lay_email_about
+abartech.mobile.callcenter118.R$id: int lay_fibernet
+abartech.mobile.callcenter118.R$id: int lay_good
+abartech.mobile.callcenter118.R$id: int lay_idea
+abartech.mobile.callcenter118.R$id: int lay_idea_fouce
+abartech.mobile.callcenter118.R$id: int lay_item
+abartech.mobile.callcenter118.R$id: int lay_item_2
+abartech.mobile.callcenter118.R$id: int lay_legal
+abartech.mobile.callcenter118.R$id: int lay_login
+abartech.mobile.callcenter118.R$id: int lay_ls
+abartech.mobile.callcenter118.R$id: int lay_main
+abartech.mobile.callcenter118.R$id: int lay_menu_search
+abartech.mobile.callcenter118.R$id: int lay_name_send_idea
+abartech.mobile.callcenter118.R$id: int lay_necessary
+abartech.mobile.callcenter118.R$id: int lay_news
+abartech.mobile.callcenter118.R$id: int lay_not_bad
+abartech.mobile.callcenter118.R$id: int lay_root
+abartech.mobile.callcenter118.R$id: int lay_sendIdea
+abartech.mobile.callcenter118.R$id: int lay_shar
+abartech.mobile.callcenter118.R$id: int lay_site
+abartech.mobile.callcenter118.R$id: int lay_survey
+abartech.mobile.callcenter118.R$id: int lay_tel1_about
+abartech.mobile.callcenter118.R$id: int lay_tel2_about
+abartech.mobile.callcenter118.R$id: int lay_tel3_about
+abartech.mobile.callcenter118.R$id: int lay_telgram
+abartech.mobile.callcenter118.R$id: int lay_update
+abartech.mobile.callcenter118.R$id: int lay_very_good
+abartech.mobile.callcenter118.R$id: int lay_weak
+abartech.mobile.callcenter118.R$id: int lay_web_about
+abartech.mobile.callcenter118.R$id: int lin
+abartech.mobile.callcenter118.R$id: int linearlayou01
+abartech.mobile.callcenter118.R$id: int lst_city
+abartech.mobile.callcenter118.R$id: int lst_country
+abartech.mobile.callcenter118.R$id: int lst_help
+abartech.mobile.callcenter118.R$id: int lst_legal
+abartech.mobile.callcenter118.R$id: int lst_main
+abartech.mobile.callcenter118.R$id: int lst_necessary
+abartech.mobile.callcenter118.R$id: int lst_news
+abartech.mobile.callcenter118.R$id: int lst_notification
+abartech.mobile.callcenter118.R$id: int lst_number_sync
+abartech.mobile.callcenter118.R$id: int lst_st
+abartech.mobile.callcenter118.R$id: int men
+abartech.mobile.callcenter118.R$id: int newControlTextView1
+abartech.mobile.callcenter118.R$id: int progressBar1
+abartech.mobile.callcenter118.R$id: int scrollView1
+abartech.mobile.callcenter118.R$id: int sd
+abartech.mobile.callcenter118.R$id: int share
+abartech.mobile.callcenter118.R$id: int sliding_tabs
+abartech.mobile.callcenter118.R$id: int title
+abartech.mobile.callcenter118.R$id: int txtDateMain
+abartech.mobile.callcenter118.R$id: int txtMainMain
+abartech.mobile.callcenter118.R$id: int txt_about
+abartech.mobile.callcenter118.R$id: int txt_address
+abartech.mobile.callcenter118.R$id: int txt_address_detils
+abartech.mobile.callcenter118.R$id: int txt_address_error
+abartech.mobile.callcenter118.R$id: int txt_change_error
+abartech.mobile.callcenter118.R$id: int txt_content
+abartech.mobile.callcenter118.R$id: int txt_date
+abartech.mobile.callcenter118.R$id: int txt_dialog
+abartech.mobile.callcenter118.R$id: int txt_email_sender_idea
+abartech.mobile.callcenter118.R$id: int txt_error
+abartech.mobile.callcenter118.R$id: int txt_family_eror
+abartech.mobile.callcenter118.R$id: int txt_head_actionbar_sendidea
+abartech.mobile.callcenter118.R$id: int txt_header_conected
+abartech.mobile.callcenter118.R$id: int txt_header_error
+abartech.mobile.callcenter118.R$id: int txt_help_hader_register
+abartech.mobile.callcenter118.R$id: int txt_help_register
+abartech.mobile.callcenter118.R$id: int txt_idea
+abartech.mobile.callcenter118.R$id: int txt_loc_search
+abartech.mobile.callcenter118.R$id: int txt_message_conected
+abartech.mobile.callcenter118.R$id: int txt_name
+abartech.mobile.callcenter118.R$id: int txt_name_detils
+abartech.mobile.callcenter118.R$id: int txt_name_error
+abartech.mobile.callcenter118.R$id: int txt_name_ostan
+abartech.mobile.callcenter118.R$id: int txt_name_sha_search
+abartech.mobile.callcenter118.R$id: int txt_neme_sender_idea
+abartech.mobile.callcenter118.R$id: int txt_news_sl
+abartech.mobile.callcenter118.R$id: int txt_no
+abartech.mobile.callcenter118.R$id: int txt_no_city
+abartech.mobile.callcenter118.R$id: int txt_no_country
+abartech.mobile.callcenter118.R$id: int txt_no_legal
+abartech.mobile.callcenter118.R$id: int txt_no_number
+abartech.mobile.callcenter118.R$id: int txt_number
+abartech.mobile.callcenter118.R$id: int txt_number_nec
+abartech.mobile.callcenter118.R$id: int txt_phone_detiles
+abartech.mobile.callcenter118.R$id: int txt_telegram_abartech
+abartech.mobile.callcenter118.R$id: int txt_telegram_nopa
+abartech.mobile.callcenter118.R$id: int txt_telegram_soft
+abartech.mobile.callcenter118.R$id: int txt_text_sender_idea
+abartech.mobile.callcenter118.R$id: int txt_title
+abartech.mobile.callcenter118.R$id: int txt_title_show
+abartech.mobile.callcenter118.R$id: int txtsn
+abartech.mobile.callcenter118.R$id: int view_pager
+abartech.mobile.callcenter118.R$layout: int about
+abartech.mobile.callcenter118.R$layout: int about_root
+abartech.mobile.callcenter118.R$layout: int dialog_choice_telegram
+abartech.mobile.callcenter118.R$layout: int dialog_conect
+abartech.mobile.callcenter118.R$layout: int dialog_detiles
+abartech.mobile.callcenter118.R$layout: int dialog_error
+abartech.mobile.callcenter118.R$layout: int dialog_exitt
+abartech.mobile.callcenter118.R$layout: int dialog_fiber
+abartech.mobile.callcenter118.R$layout: int dialog_help
+abartech.mobile.callcenter118.R$layout: int dialog_meesage
+abartech.mobile.callcenter118.R$layout: int dialog_survey
+abartech.mobile.callcenter118.R$layout: int dialog_update
+abartech.mobile.callcenter118.R$layout: int dialog_wait
+abartech.mobile.callcenter118.R$layout: int dialog_welcom
+abartech.mobile.callcenter118.R$layout: int frg_code_city
+abartech.mobile.callcenter118.R$layout: int frg_code_country
+abartech.mobile.callcenter118.R$layout: int frg_legal
+abartech.mobile.callcenter118.R$layout: int frg_main
+abartech.mobile.callcenter118.R$layout: int frg_sync
+abartech.mobile.callcenter118.R$layout: int help
+abartech.mobile.callcenter118.R$layout: int help_root
+abartech.mobile.callcenter118.R$layout: int idea_root
+abartech.mobile.callcenter118.R$layout: int item_faq
+abartech.mobile.callcenter118.R$layout: int item_necesaary
+abartech.mobile.callcenter118.R$layout: int item_news
+abartech.mobile.callcenter118.R$layout: int item_notific
+abartech.mobile.callcenter118.R$layout: int item_number
+abartech.mobile.callcenter118.R$layout: int item_ostan
+abartech.mobile.callcenter118.R$layout: int item_shar
+abartech.mobile.callcenter118.R$layout: int lay_list
+abartech.mobile.callcenter118.R$layout: int list_notification
+abartech.mobile.callcenter118.R$layout: int list_notification_root
+abartech.mobile.callcenter118.R$layout: int main
+abartech.mobile.callcenter118.R$layout: int main_root
+abartech.mobile.callcenter118.R$layout: int necessary
+abartech.mobile.callcenter118.R$layout: int necessary_root
+abartech.mobile.callcenter118.R$layout: int news
+abartech.mobile.callcenter118.R$layout: int news_root
+abartech.mobile.callcenter118.R$layout: int send_idea
+abartech.mobile.callcenter118.R$layout: int show_notification
+abartech.mobile.callcenter118.R$layout: int show_notification_root
+abartech.mobile.callcenter118.R$layout: int sliding
+abartech.mobile.callcenter118.R$layout: int splash
+abartech.mobile.callcenter118.R$layout: int survey
+abartech.mobile.callcenter118.R$string: int about
+abartech.mobile.callcenter118.R$string: int app_name
+abartech.mobile.callcenter118.R$string: int email
+abartech.mobile.callcenter118.R$string: int hello
+abartech.mobile.callcenter118.R$string: int p
+abartech.mobile.callcenter118.R$string: int web
+abartech.mobile.callcenter118.ShowNotification
+abartech.mobile.callcenter118.SplashScreen
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.DialogFragment
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context)
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setup()
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager)
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager,int)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.ListFragment
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context)
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: void setPadding(int,int,int,int)
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setTextSize(int,float)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: void setCurrentItem(int,boolean)
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer)
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ContentLoadingProgressBar
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context)
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setDrawerShadow(android.graphics.drawable.Drawable,int)
+android.support.v4.widget.DrawerLayout: void setDrawerShadow(int,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int,int)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int,android.view.View)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.android.volley.Request$Priority: com.android.volley.Request$Priority[] values()
+com.android.volley.Request$Priority: com.android.volley.Request$Priority valueOf(java.lang.String)
+com.android.volley.toolbox.NetworkImageView
+com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context)
+com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet)
+com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet,int)
+com.android.volley.toolbox.NetworkImageView: void setImageUrl(java.lang.String,com.android.volley.toolbox.ImageLoader)
+com.android.volley.toolbox.NetworkImageView: void setDefaultImageResId(int)
+com.android.volley.toolbox.NetworkImageView: void setErrorImageResId(int)

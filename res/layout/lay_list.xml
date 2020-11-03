@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="420dip"
+        android:orientation="vertical" android:gravity="top" android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="#3498DB" android:gravity="center">
+
+            <EditText
+                android:id="@+id/edt_name_list_shar"
+                android:layout_width="220dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/selector_search"
+                android:drawableLeft="@drawable/search"
+                android:ems="10"
+                android:gravity="right"
+                android:imeOptions="actionNext"
+                android:inputType="text|textPersonName"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:textSize="14dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_ls"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lst_st"
+                android:layout_width="220dip"
+                android:layout_height="fill_parent"
+                android:background="#eeeeee"
+                android:cacheColorHint="@null"
+                android:clickable="false"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@null"
+                android:dividerHeight="0dip"
+                android:drawable="@android:color/transparent"
+                android:duplicateParentState="true"
+                android:focusable="false"
+                android:visibility="visible" >
+
+                <!-- Preview: listitem=@layout/item_ostan -->
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

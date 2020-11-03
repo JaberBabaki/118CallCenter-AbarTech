@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/elector_item"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:background="#f9f9f9"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_weight="0.4"
+                android:orientation="vertical" android:layout_marginBottom="2dip" android:layout_marginTop="2dip">
+
+                <LinearLayout
+                    android:id="@+id/add_contact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="1dip"
+                    android:layout_weight="0.33"
+                    android:background="#eeeeee" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="25dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:src="@drawable/contact" />
+
+                    <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                        android:id="@+id/NewControlTextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center"
+                        android:text="اضافه کردن"
+                        android:textColor="#000000" android:textSize="11dip" android:layout_marginLeft="4dip"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/call"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginBottom="1dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_weight="0.33"
+                    android:background="#eeeeee" >
+
+                    <ImageView
+                        android:id="@+id/img_delete_adapter"
+                        android:layout_width="25dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dip"
+                        android:src="@drawable/telephone" />
+
+                    <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                        android:id="@+id/NewControlTextView02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center"
+                        android:text="تماس گرفتن"
+                        android:textColor="#000000"
+                        android:textSize="11dip" android:layout_marginLeft="4dip"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/share"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="1dip"
+                    android:layout_weight="0.33"
+                    android:background="#eeeeee" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="25dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="2dip"
+                        android:src="@drawable/share" />
+
+                    <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                        android:id="@+id/NewControlTextView03"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center"
+                        android:text="ارسال کردن"
+                        android:textColor="#000000"
+                        android:textSize="11dip" android:layout_marginLeft="4dip" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_weight="0.6"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="2dip"
+                    android:layout_marginRight="4dip"
+                    android:layout_marginTop="2dip"
+                    android:layout_weight="0.33"
+                    android:gravity="right|center" >
+
+                    <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                        android:id="@+id/txt_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginBottom="2dip"
+                    android:layout_marginRight="4dip"
+                    android:layout_marginTop="2dip"
+                    android:layout_weight="0.33"
+                    android:gravity="right" >
+
+                    <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                        android:id="@+id/txt_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginRight="4dip"
+                    android:layout_weight="0.33"
+                    android:gravity="right" >
+
+                    <abartech.mobile.callcenter118.CustomControl.NewControlTextView
+                        android:id="@+id/txt_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
